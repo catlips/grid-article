@@ -10,10 +10,31 @@ body, html {
   text-align: center;
   background-color: goldenrod;
 }
-.article--article {
-  max-width: 640px;
+/*.grid {
+  display: grid;
+  max-width: 800px;
+  grid-template-columns: 1fr 2fr 1fr;
   margin-left: auto;
   margin-right: auto;
+}*/
+.article--article {
+  display: grid;
+  max-width: 800px;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+.article--content {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.article--header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.article--aside {
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 figure {
   margin-left: 0;
