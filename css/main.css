@@ -1,0 +1,25 @@
+body, html {
+  /*font-size: 10px;*/
+  margin: 0;
+  padding: 0;
+}
+.page--header,
+.page--footer {
+  padding: 2rem;
+  font-size: 2.4rem;
+  text-align: center;
+  background-color: goldenrod;
+}
+.article--article {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+figure img {
+  width: 100%;
+  height: auto;
+}
